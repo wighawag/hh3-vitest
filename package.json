@@ -1,0 +1,24 @@
+{
+  "name": "hh3-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@ignored/hardhat-vnext": "^3.0.0-next.18",
+    "@ignored/hardhat-vnext-keystore": "^3.0.0-next.14",
+    "@ignored/hardhat-vnext-network-helpers": "^3.0.0-next.14",
+    "@ignored/hardhat-vnext-node-test-runner": "^3.0.0-next.14",
+    "@ignored/hardhat-vnext-viem": "^3.0.0-next.13",
+    "@types/node": "^22.8.5",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "typescript": "~5.5.0",
+    "viem": "^2.21.42"
+  }
+}
