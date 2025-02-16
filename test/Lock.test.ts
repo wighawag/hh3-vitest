@@ -1,4 +1,4 @@
-import { describe, it } from "node:test";
+import { describe, it } from "vitest";
 import { network } from "@ignored/hardhat-vnext";
 import { getAddress, parseGwei } from "viem";
 // We don't have Ethereum specific assertions in Hardhat 3 yet
