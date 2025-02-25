@@ -1,25 +1,22 @@
 {
-  "name": "hh3-tests",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "name": "hardhat3-alpha",
+  "version": "0.0.0",
   "type": "module",
   "devDependencies": {
-    "@ignored/hardhat-vnext": "^3.0.0-next.18",
-    "@ignored/hardhat-vnext-keystore": "^3.0.0-next.14",
-    "@ignored/hardhat-vnext-network-helpers": "^3.0.0-next.14",
-    "@ignored/hardhat-vnext-node-test-runner": "^3.0.0-next.14",
-    "@ignored/hardhat-vnext-viem": "^3.0.0-next.13",
+    "@nomicfoundation/hardhat-ignition": "^3.0.0-next.0",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.0-next.0",
+    "@nomicfoundation/hardhat-keystore": "^3.0.0-next.0",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.0-next.0",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.0-next.0",
+    "@nomicfoundation/hardhat-viem": "^3.0.0-next.0",
     "@types/node": "^22.8.5",
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.0-next.0",
+    "prettier-plugin-solidity": "^1.4.2",
     "typescript": "~5.5.0",
-    "viem": "^2.21.42",
-    "vitest": "^3.0.5"
+    "viem": "^2.21.42"
+  },
+  "scripts": {
+    "test": "hardhat test"
   }
 }
